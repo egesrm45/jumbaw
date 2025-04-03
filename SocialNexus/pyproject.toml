@@ -1,0 +1,17 @@
+
+[tool.poetry]
+name = "socialnexus"
+version = "0.1.0"
+description = "SocialNexus web application"
+authors = ["Replit User"]
+
+[project]
+name = "socialnexus"
+version = "0.1.0"
+description = "SocialNexus web application"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "lxml>=5.3.1",
+    "requests>=2.32.3",
+]
